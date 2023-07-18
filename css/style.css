@@ -82,6 +82,10 @@ a{
   background-color: #23272A;
   color: white;
 }
+.botone.blu{
+  background-color:#7289DA;
+  color: white;
+}
 
 #jumbotron{
   justify-content: center;
@@ -123,6 +127,7 @@ h2{
 h3{
   font-size: 1.7rem;
   font-weight: bold;
+  margin-bottom: 70px;
 }
 section,
 footer{
@@ -132,15 +137,11 @@ footer{
 section:last-child .container{
   flex-direction: column;
   justify-content: space-around;
-  text-align: center;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-.scarica{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.scarica .stars{
+.container .stars{
 margin-bottom: -20px;
 width: 50%;
 }
