@@ -1,2 +1,2 @@
-# Struttura sito Discord, 
-## esercizio 17/07/2023
+# sito Discord, 
+## esercizio 18/07/2023
