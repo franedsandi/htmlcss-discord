@@ -22,13 +22,11 @@ body{
   display: flex;
 }
 .container{
-  width: 75%;
-  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 
 /* header */
-
 header .topbar {
   height: 80px;
   background-color: #255EE9;
@@ -38,7 +36,9 @@ header .topbar .container{
   align-items: center;
   height: 100%;
 }
-
+header .menu{
+  min-width: 550px;
+}
 header .menu ul{
   list-style: none;
 }
@@ -78,8 +78,9 @@ a{
 
   /* bottons */
 .botone{
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 30px;
+  font-size: 1.5rem;
 }
 .botone.bianco{
   background-color: white;
@@ -112,6 +113,9 @@ a{
   align-items: center;
   text-align: center;
 }
+#jumbotron .links .botone{
+  margin: 20px;
+}
   /* content */
 .content h1{
   margin: 20px auto ;
@@ -120,10 +124,6 @@ a{
 .content p{
   margin: 40px auto;
   font-size: 1.3rem;
-}
-.content .botone{
-  margin: 10px;
-  font-size: 1.5rem;
 }
 /* main container */
 
@@ -147,6 +147,7 @@ section:last-child .container{
 .container .stars{
 margin-bottom: -20px;
 width: 50%;
+max-width: 570px;
 }
 
 /* FOOTER */
@@ -180,6 +181,7 @@ font-size: 20px;
 }
 .socialmedia{
   width: 50%;
+  max-width: 170px;
   justify-content: space-between;
 }
 .footer-top .menu{
