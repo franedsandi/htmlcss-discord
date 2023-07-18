@@ -3,101 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS  -->
   <link rel="stylesheet" href="css/style.css">
-  <title>Discord</title>
+  
+  <title>discord struttura</title>
 </head>
 <body>
+
   <header>
-    <section class="top clearfix">
-      <div class="row">
-        <div class="col small">
-          <div class="logo">
-            <img src="img/logo.svg" alt="">
-          </div>
+    <div class="topbar">
+      <div class="container d-flex">
+        <div class="logo">
+          <img src="img/logo.svg" alt="logo">
         </div>
-        <div class="col big">
-          <div class="nav">
-            <a href="#">Scarica</a>
-            <a href="#">Perché Discord</a>
-            <a href="#">Nitro</a>
-            <a href="#">Sicurezza</a>
-            <a href="#">Assistenza</a>
-          </div>
+        <div class="menu">
+          <nav>
+            <ul class="d-flex">
+              <li><a href="#">Scarica</a></li>
+              <li><a href="#">Perche Discord</a></li>
+              <li><a href="#">Nitro</a></li>
+              <li><a href="#">Sicurezza</a></li>
+              <li><a href="#">Assistenza</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="col small">
-          <div class="login">
-            <div class="botone bianco">
-            <p>Accedi</p>
-            </div>
-          </div>
+        <div class="login">
+          <a href="#" class="botone bianco">ACCEDI</a>
         </div>
       </div>
-    </section>
-    <section class="description">
-      <div class="principal info">
+    </div>
+    <div id="jumbotron" class="d-flex ">
+      <div class="content d-flex">
+        <h1>Il tuo posto per parlare</h1>
+        <p>Che tu faccia parte di un club scolastico, gruppo gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme Discord rende più faccile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+        <div class="links">
+          <a href="#" class="botone bianco">Scarica  per Mac</a>
+          <a href="#" class="botone oscuro">Apri Discord nel tuo browser</a>
+        </div>
       </div>
-    </section>
+    </div>
   </header>
+
   <main>
-    <section class="bg-white clearfix">
-      <div class="container">
-        <div class="picture">
+
+    <section>
+      <div class="container d-flex">
+        <div class="big-column d-flex">
+          <img src="img/item1.svg" alt="discord first">
         </div>
-        <div class="text">
+        <div class="small-column d-flex">
+          <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+          <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornatta senza intassare una chat di gruppo</p>
         </div>
-    </div>
+      </div>
     </section>
-    <section class="bg-grey clearfix">
-      <div class="container">
-        <div class="text">
+    
+    <section class="bg-grey" >
+      <div class="container d-flex">
+        <div class="small-column d-flex">
+          <h2>Dove Trovarsi è facile</h2>
+          <p>Mettitto comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare. </p>
         </div>
-        <div class="picture">
+        <div class="big-column">
+          <img src="img/item2.svg" alt="discord second">
         </div>
-    </div>
+      </div>
     </section>
-    <section class="bg-white clearfix">
-      <div class="container">
-        <div class="picture">
+    
+    <section>
+      <div class="container d-flex">
+        <div class="big-column">
+          <img src="img/item3.svg" alt="discord terzo">
         </div>
-        <div class="text">
+        <div class="small-column">
+          <h2>Da pochi a un fandom</h2>
+          <p>dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai menbri perzonalizzabile. <br>
+          concedi ai membri poteri speciali, crea canali privati e molto altro.</p>
         </div>
-    </div>
+      </div>
     </section>
-    <section class="bg-grey second clearfix">
-      <div class="container">
-        <div class="green">
+
+    <section class="bg-grey">
+      <div class="container d-flex">
+        <div class="scarica d-flex">
+          <h2>Tecnologia affidabile per tenersi in contatto</h2>
+          <p>Video e audio a bassalatenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda <br>
+          gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivizione schermo</p>
+          <img src="img/item4-big.svg" alt="discord fourth">
+          <img src="img/stars.svg" alt="stars" class="stars">
+          <h3>Pronto a iniziare la tua aventura?</h3>
         </div>
-    </div>
+      </div>
     </section>
+    
   </main>
+
   <footer>
-    <section class="rette clearfix">
-      <div class="container">
-        <div class="social">
-        </div>
-        <div class="others">
-          <div class="prodotto">
-          </div>
-          <div class="compagnia">
-          </div>
-          <div class="risorse">
-          </div>
-          <div class="nome">
-          </div>
+    <div class="container debug-box debug">
+      <div class="footer-top d-flex debug-box debug">
+        <div class="social">social</div>
+        <div class="menu d-flex debug-box debug">
+          <div class="col">1</div>
+          <div class="col">2</div>
+          <div class="col">3</div>
+          <div class="col">4</div>
         </div>
       </div>
-    </section>
-    <section class="bottomer">
-      <div class="container">
-        <div class="logo"><span>logo</span>
-        </div>
-        <div class="button"><span>button</span>
-        </div>
+      <div class="footer-bottom d-flex debug-box debug">
+        <div class="logo">LOGO</div>
+        <div class="register">REGISTRATI</div>
       </div>
-
-    </section>
-
+    </div>
   </footer>
+  
+  
+  
 </body>
 </html>
