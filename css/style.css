@@ -124,7 +124,7 @@ h2{
   font-size: 2.5rem;
   margin-bottom: 40px;
 }
-h3{
+.container h3{
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 70px;
@@ -155,18 +155,41 @@ footer{
 }
 .footer-top{
   height: 400px;  /* DEBUG */
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
 }
-
+.footer-top h3,
+.footer-top h4{
+  color: #7289DA;
+}
+.social h3{
+  margin-bottom: 0px;
+}
 .footer-top .social{
   width: 25%;
 }
-
+.social img{
+  height: 15px;
+}
+.social p {
+  margin: 10px auto;
+  font-size: 20px;  
+}
+.socialmedia i{
+color: white;
+font-size: 20px;
+}
+.socialmedia{
+  width: 50%;
+  justify-content: space-between;
+}
 .footer-top .menu{
   width: 75%;
 }
 
 .footer-top .menu .col{
   flex-basis: 25%;
+  text-align: right;
 }
 
 .footer-bottom{
