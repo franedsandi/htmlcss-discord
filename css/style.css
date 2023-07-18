@@ -149,17 +149,15 @@ width: 50%;
 
 /* FOOTER */
 footer{
-  background-color: #24272A;
+  background-color:#23272A ;
   color: white;
-  height: 600px;  /* DEBUG */
 }
 .footer-top{
-  height: 400px;  /* DEBUG */
-  border-bottom: 2px solid grey;
-  margin-bottom: 20px;
+  border-bottom: 2px solid #4F5D8C;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
-.footer-top h3,
-.footer-top h4{
+.footer-top h3,{
   color: #7289DA;
 }
 .social h3{
@@ -189,7 +187,17 @@ font-size: 20px;
 
 .footer-top .menu .col{
   flex-basis: 25%;
-  text-align: right;
+  text-align: left;
+}
+
+footer ul{
+  list-style: none;
+}
+footer ul:first-child{
+  color: #6D79AF;
+}
+footer li{
+  margin-bottom: 20px;
 }
 
 .footer-bottom{
