@@ -57,6 +57,7 @@ a{
   /* layout */
 .big-column{
   width: 60%;
+  padding: 40px;
 }
 .big-column img{
   width: 100%;
@@ -66,6 +67,7 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
   /* background alt */
 .bg-grey{
@@ -81,6 +83,7 @@ a{
   padding: 15px 30px;
   border-radius: 30px;
   font-size: 1.5rem;
+  display: inline-block;
 }
 .botone.bianco{
   background-color: white;
@@ -102,7 +105,8 @@ a{
   height: 540px;
   color: white;
   background-image: url(../img/jumbo.png);
-  background-size: cover
+  background-size: cover;
+  background-position: center;
 }
 
 #jumbotron .content{
@@ -114,7 +118,7 @@ a{
   text-align: center;
 }
 #jumbotron .links .botone{
-  margin: 20px;
+  margin: 5px 20px;
 }
   /* content */
 .content h1{
@@ -140,14 +144,17 @@ section:last-child .container{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 80px;
   text-align: center;
+  padding: 40px;
 }
 
 .container .stars{
-margin-bottom: -20px;
-width: 50%;
-max-width: 570px;
+  width: 50%;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
 /* FOOTER */
@@ -176,8 +183,8 @@ footer{
   font-size: 20px;  
 }
 .socialmedia i{
-color: white;
-font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 .socialmedia{
   width: 50%;
@@ -216,9 +223,9 @@ font-size: 20px;
 
 /* bonus */
 .bg-transition img{
-width: 100%;
-background-color: white;
+  width: 100%;
+  background-color: white;
 }
 .bg-transition.white{
-  rotate: 180deg;
+  transform: rotateX(0.5turn);
 }
