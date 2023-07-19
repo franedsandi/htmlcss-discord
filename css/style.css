@@ -84,9 +84,8 @@ a{
 
   /* bottons */
 .botone{
-  padding: 15px 30px;
+
   border-radius: 30px;
-  font-size: 1.5rem;
   display: inline-block;
 }
 .botone.bianco{
@@ -100,6 +99,14 @@ a{
 .botone.blu{
   background-color:#7289DA;
   color: white;
+}
+.botone.piccolo{
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+.botone.grande{
+  font-size: 1.5rem;
+  padding: 10px 20px;
 }
   /* jumbotron */
 #jumbotron{
