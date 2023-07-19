@@ -102,7 +102,6 @@ a{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 540px;
   color: white;
   background-image: url(../img/jumbo.png);
   background-size: cover;
@@ -118,7 +117,7 @@ a{
   text-align: center;
 }
 #jumbotron .links .botone{
-  margin: 5px 20px;
+  margin: 5px 20px 30px;
 }
   /* content */
 .content h1{
@@ -149,12 +148,14 @@ section:last-child .container{
 }
 
 .container .stars{
-  width: 50%;
+  width: 570px;
+  height: 50px;
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
   background-position: center;
+  margin-bottom: 20px;
 }
 
 /* FOOTER */
